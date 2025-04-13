@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #84d8e3; /* Matching your screenshot background */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.text {
+  font-size:1.5rem;
+  margin-bottom:30px
+}
+
+.button {
+  width: 220px;
+  padding: 12px 16px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0 0;
+  z-index: 10;
+}
+
+.menuItem {
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menuItem:hover {
+  background-color: #f2f2f2;
+}
